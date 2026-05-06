@@ -1,0 +1,88 @@
+=============================================================
+  ANDREA - CALCULADORA DE GASTOS PERSONALES
+  Version 1.0 | Mayo 2026
+=============================================================
+
+COMO EJECUTAR EL PROGRAMA
+--------------------------
+1. Asegurate de que estos archivos esten en la MISMA carpeta:
+      andrea.exe
+      historial_ahorros.txt
+
+2. Haz doble clic en "andrea.exe"
+
+   Eso es todo. No necesitas instalar nada.
+
+IMPORTANTE: No muevas el .exe solo a otra carpeta.
+El programa guarda tus datos en la misma carpeta donde
+esta el .exe. Si los separas, perdera el historial.
+
+
+QUE HACE ESTE PROGRAMA
+-----------------------
+ANDREA te ayuda a controlar tus gastos mensuales.
+Puedes editar los montos de cada categoria, ver cuanto
+estas ahorrando cada mes, y llevar un historial de tus
+ahorros a lo largo del tiempo.
+
+Categorias incluidas:
+  - Servicios Publicos  (luz, agua, gas, internet, celular)
+  - Servicios Basicos   (alimentacion, mercado, higiene)
+  - Transporte          (gasolina, pasajes, parqueos)
+  - Salud y Bienestar   (medicinas, seguro medico)
+  - Educacion           (colegiatura, utiles)
+  - Gastos Variables    (streaming, cine, paseos, imprevistos)
+
+
+COMO USAR EL MENU
+-----------------
+Escribe el numero de la opcion que deseas y presiona ENTER.
+
+  1-6   Editar gastos de cada categoria
+  7     Cambiar tu sueldo mensual
+  8     Ver resumen completo de gastos
+  9     Ver historial de ahorros anteriores
+  10    Cerrar el mes y guardar el ahorro en el historial
+  11    Ver instrucciones de uso
+  0     Salir (guarda automaticamente tus cambios)
+
+Tip: Usa la opcion 0 para salir. Tus datos quedan
+guardados y los veras la proxima vez que abras el programa.
+
+
+ARCHIVOS QUE GENERA EL PROGRAMA
+---------------------------------
+  andrea_data.bin         Guarda el estado actual de tus gastos.
+                          No lo borres o perdera tus datos.
+
+  historial_ahorros.txt   Registra el ahorro de cada mes que
+                          hayas cerrado con la opcion 10.
+
+
+PREGUNTAS FRECUENTES
+--------------------
+P: El programa no abre o da error.
+R: Asegurate de que andrea.exe y historial_ahorros.txt
+   esten en la misma carpeta. Haz clic derecho en el .exe
+   y elige "Ejecutar como administrador" si persiste el error.
+
+P: Perdi mis datos anteriores.
+R: El archivo andrea_data.bin guarda tu estado. Si lo
+   borraste accidentalmente, el programa arrancara con
+   los valores predeterminados.
+
+P: El programa me muestra numeros raros o caracteres extraños.
+R: Asegurate de abrir el .exe directamente con doble clic,
+   no desde una terminal de VS Code u otro editor.
+
+
+=============================================================
+AUTORES:
+  Andrea Isabel Godinez Cruz    0903-24-25969
+  Kristel Andrea Merida Diaz    0903-25-23801
+  Carlos Vallardo Morales G.    0903-25-16887
+  Rony Alberto Mendez Fuentes   0903-25-29637
+
+Programacion I | Universidad de Mariano Gálvez de Guatemala
+Mayo 2026
+=============================================================
